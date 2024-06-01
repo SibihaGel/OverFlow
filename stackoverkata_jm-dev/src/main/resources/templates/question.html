@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ask a Question</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+<main class="container mt-5">
+  <div class="row">
+    <div class="col-lg-9"><h2 class="mb-4">Задать вопрос</h2>
+      <form>
+        <div class="form-group"><label for="question-title">Тема</label> <input type="text"
+                                                                                class="form-control"
+                                                                                id="question-title"
+                                                                                placeholder="Введите тему вашей проблемы">
+        </div>
+        <div class="form-group"><label for="question-body">Текст</label> <textarea class="form-control"
+                                                                                   id="question-body" rows="8"
+                                                                                   placeholder="Введите текст"></textarea>
+        </div>
+        <div class="form-group"><label for="question-tags">Теги</label> <input type="text" class="form-control"
+                                                                               id="question-tags"
+                                                                               placeholder="Введите теги">
+          <small id="question-tags-help" class="form-text text-muted">Разделяйте теги запятыми</small></div>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </form>
+    </div>
+    <div class="col-lg-3"><h4>Написание правильной темы </h4>
+      <ul class="list-group">
+        <li class="list-group-item"><a href="#">Ваша тема должна обобщать проблему.</a></li>
+
+      </ul>
+    </div>
+  </div>
+</main>
+
+<script type="text/javascript" src="/js/sidebar.js"></script>
+<script type="text/javascript" src="/js/header.js"></script>
+<script type="text/javascript" src="/js/footer.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

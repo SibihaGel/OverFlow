@@ -1,0 +1,36 @@
+# Project exclude paths
+/target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+#Any
+.jpb
+
+# Windows 10 & MyPC & Karen's exceptions
+*.ini
+*.lnk
+*.url
+
+# project exceptions
+*.yml
+.vscode/
+/resources/           # - чтобы не пушить Liquibase
+readme.md             # - чтобы не пушить, т.к. форматировал под себя
+docker-compose.yml    # - чтобы не пушить Docker
+.gitignore            # - чтобы не пушить
+

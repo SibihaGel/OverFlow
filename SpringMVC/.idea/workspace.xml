@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc2ecb40-d3e3-4548-96d1-62d9590d704f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2Zu7qSF366ZMKQEl5YUfQM6kCVd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kiryx/IdeaProjects/SpringExampleOne",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/kiryx/Downloads/stackoverkata_jm-dev/SpringMVC/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-3183f394aec4-f0552fc0" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc2ecb40-d3e3-4548-96d1-62d9590d704f" name="Changes" comment="" />
+      <created>1703260303641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703260303641</updated>
+      <workItem from="1703260304663" duration="2058000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="03eded">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="03eded" />
+              <option name="initiateTms" value="1703260432372" />
+              <option name="request" value="Спринг быстрый книга" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Если вы ищете хорошую книгу о Spring Framework, я рекомендую вам следующую книгу:&#10;&#10;Название: &quot;Spring in Action&quot; (4th Edition)&#10;Автор: Craig Walls&#10;&#10;Эта книга является одним из наиболее популярных ресурсов для изучения Spring Framework. Она предоставляет подробное и практическое введение в основные концепции и возможности Spring. Книга покрывает различные аспекты Spring, включая IoC (Inversion of Control), DI (Dependency Injection), AOP (Aspect-Oriented Programming), Spring MVC и многое другое.&#10;&#10;&quot;Spring in Action&quot; предлагает множество примеров кода и объяснений, которые помогут вам лучше понять и применить Spring в своих проектах. Книга также обновляется и выпускается новые версии, чтобы отражать последние изменения и новые возможности Spring Framework.&#10;&#10;Однако, помимо книги, я также рекомендую вам изучить официальную документацию Spring Framework, которая является исчерпывающим источником информации о различных аспектах и функциональностях фреймворка. Вы можете найти документацию на официальном сайте Spring: [https://spring.io/](https://spring.io/)&#10;&#10;Надеюсь, эти ресурсы помогут вам быстро освоить Spring Framework и начать разрабатывать приложения с его использованием." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1703260444687" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="7d8de9">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="7d8de9" />
+              <option name="initiateTms" value="1703260392300" />
+              <option name="request" value="AOP парадигма" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="AOP (Aspect-Oriented Programming) - это парадигма программирования, которая позволяет разделять логику приложения на отдельные модули, называемые аспектами. Аспекты представляют собой перекрестно-режущиеся функциональности, которые могут быть применены к различным частям кода без изменения самого кода.&#10;&#10;Основная идея AOP заключается в том, чтобы выделить такие аспекты, как логирование, транзакции, безопасность и кеширование, и применить их к различным компонентам приложения. Это позволяет сосредоточиться на основной функциональности каждого компонента, не заботясь о дополнительных аспектах.&#10;&#10;В Java AOP реализуется с использованием фреймворков, таких как AspectJ или Spring AOP. Они предоставляют возможность определить аспекты и их применение к целевым компонентам с помощью аннотаций или XML-конфигурации.&#10;&#10;Примеры использования AOP включают логирование вызовов методов, обработку исключений, проверку прав доступа и управление транзакциями. AOP позволяет снизить повторяемость кода и улучшить модульность приложения." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1703260395858" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

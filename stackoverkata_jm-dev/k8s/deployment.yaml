@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stackoverkata
+  labels:
+    app: stackoverkata
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: stackoverkata
+  template:
+    metadata:
+      labels:
+        app: stackoverkata
+    spec:
+      containers:
+        - name: stackoverkata
+          image: sibiha/stackoverkata_jm:1.0.1
+          ports:
+            - containerPort: 8080
+          env:
+            - name: DATASOURCE_HOST
+              value:  192.168.56.1
+            # - name: spring.mvc.servlet.path
+            #  value: /stackoverkata
+
+# kubectl apply -f C://Users/kiryx/IdeaProjects/stackoverkata_jm-dev/stackoverkata_jm-dev/k8s/deployment.yaml
+# kubectl delete --all deployment
+# kubectl get pods
+# kubectl get pods --all-namespaces !!!!!!!!!!!!!!!
+# kubectl port-forward stackoverkata-84599fc87c-4pjrb 8899:8080
+

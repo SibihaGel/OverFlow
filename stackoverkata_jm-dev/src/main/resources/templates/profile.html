@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/sidebar.js"></script>
+    <script type="text/javascript" src="/js/header.js"></script>
+    <script type="text/javascript" src="/js/footer.js"></script>
+    <style>
+        a {
+            text-decoration: none;
+        }
+        .user-image {
+            border-radius: 10px;
+            float: left;
+        }
+        .user-name {
+            padding: 30px 0 0 0px;
+        }
+        .label-row {
+            width: 70%;
+            font-size: 8pt;
+        }
+        .orange-links {
+            width: 31%;
+            padding: 20px;
+        }
+        .orange-links a {
+            font-size: small;
+            color:black;
+            padding: 5px 10px;
+            border-radius: 1000px;
+            border: none;
+        }
+        .orange-links a:hover {
+            background-color: lightgray;
+        }
+        .orange-links a.active{
+            background-color: orange;
+            color: white;
+        }
+        .bar {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+        }
+        .bar .col{
+            padding: 10px 20px;
+            font-size: 9pt;
+        }
+        .bar .col div{
+            font-size: 14pt;
+        }
+        .edit-communities{
+            color: gray;
+        }
+        .badges-row{
+            padding: 10px 0px;
+        }
+        .top-buttons div{
+            padding: 0 3px;
+            font-size: 8pt;
+            text-align:right
+        }
+        .top-buttons div a{
+            color: black;
+            padding: 5px 10px;
+            border:1px solid grey;
+            border-radius:5px;
+        }
+        .post {
+            font-size: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="container" style="padding: 20px">
+
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col col-md-auto" >
+                    <img class="user-image" src="https://lh3.googleusercontent.com/a/AAcHTteWU5MqKhKD6eLDbWRv8bChL88-tPEDlAD8v39CyrMy=k-s256" height="128px" width="128px">
+
+                </div>
+                <div class="col-7 user-name" >
+                    <div class="row"><h2>Roman</h2></div>
+                    <div class="row label-row">
+                        <div class="col">
+                            <span class="span5">Member since today</span>
+                        </div>
+                        <div class="col">
+                            <span class="span5">Last seen this week</span>
+                        </div>
+                        <div class="col">
+                            <span class="span5">Visited 1 day, 1 consecutive</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 top-buttons">
+                    <div class="row justify-content-end">
+                        <div class="col col-md-auto">
+                            <a href="#">Edit profile</a>
+                        </div>
+                        <div class="col col-md-auto">
+                            <a href="#">Network profile</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row orange-links" >
+                <div class="col">
+                    <a href="#" class="active"  >Profile</a>
+                </div>
+                <div class="col">
+                    <a href="#">Activity</a>
+                </div>
+                <div class="col">
+                    <a href="#">Saves</a>
+                </div>
+                <div class="col">
+                    <a href="#">Settings</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div><h3>Stats</h3></div>
+                    <div class="bar">
+                        <div class="row row-cols-2">
+                            <div class="col">
+                                <div>1</div>
+                                reputation
+                            </div>
+                            <div class="col">
+                                <div>0</div>
+                                answers</div>
+                            <div class="col">
+                                <div>0</div>
+                                reaches</div>
+                            <div class="col">
+                                <div>0</div>
+                                questions</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10"><h3>Communities</h3></div>
+                        <div class="col-2"><a class="edit-communities" href="#">Edit</a></div>
+                    </div>
+                    <div class="bar">
+                        <div class="row">
+                            <div class="col-10"><a class="" href="#">Stackoverkata</a></div>
+                            <div class="col-2">1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div><h3>About</h3></div>
+                    <div >
+                        Beginner Java-developer
+                    </div>
+                    <div class="row badges-row">
+                        <div class="col-10"><h3>Badges</h3></div>
+                        <div class="col-2"><a class="edit-communities" href="#">View all badges</a></div>
+                    </div>
+                    <div class="bar">
+                        <div class="row">
+                            <div class="col-10">You have not earned any rare <a href="#">badges</a></div>
+                        </div>
+                    </div>
+                    <div><h3>Posts</h3></div>
+                    <div class="post"> <a href="#">SQL Server how to rotate tables 45 degrees?</a></div>
+                    <div class="post"> <a href="#">SQL Server how to rotate tables 45 degrees?</a></div>
+                    <div class="post"> <a href="#">SQL Server how to rotate tables 45 degrees?</a></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>

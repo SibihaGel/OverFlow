@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/stackoverkata_jm-dev/stackoverkata_jm.iml" filepath="$PROJECT_DIR$/stackoverkata_jm-dev/stackoverkata_jm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/stackoverkata_jm-dev.iml" filepath="$PROJECT_DIR$/.idea/stackoverkata_jm-dev.iml" />
+    </modules>
+  </component>
+</project>

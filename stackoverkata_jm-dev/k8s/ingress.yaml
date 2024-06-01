@@ -1,0 +1,39 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress
+spec:
+  rules:
+    - http:
+        paths:
+          - pathType: /
+            path: /stackoverkata
+            backend:
+              service:
+                name: stackoverkata
+                port:
+                  number: 80
+---
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: grafana-ingress
+spec:
+  rules:
+    - host: grafana.example.com
+      http:
+        paths:
+          - pathType: /
+            path: /grafana
+            backend:
+              service:
+                name: grafana
+                port:
+                  number: 3000
+# kubectl delete ingress sibiha-ingress -n default
+#  kubectl get ingresses
+# kubectl delete ingress sibiha
+# kubectl get pods --all-namespaces !!!!!!!!!!!!!!!
+# kubectl logs -n ingress-nginx ingress-nginx-controller-55bbd74b5f-8p62f
+#  kubectl describe ingress grafana-ingress
